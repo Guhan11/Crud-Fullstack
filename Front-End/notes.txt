@@ -1,0 +1,8 @@
+md server
+npm init -y
+npm i express cors
+npm i nodemon -D
+npm i nodemon -D
+
+
+npm i axios

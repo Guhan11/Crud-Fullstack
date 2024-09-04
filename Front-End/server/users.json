@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Arun Kumar",
+        "age": 25,
+        "city": "Chennai"
+    },
+    {
+        "id": 2,
+        "name": "Priya Lakshmi",
+        "age": 30,
+        "city": "Coimbatore"
+    },
+    {
+        "id": 3,
+        "name": "Suresh Babu",
+        "age": 28,
+        "city": "Madurai"
+    },
+    {
+        "id": 4,
+        "name": "Lakshmi Narayanan",
+        "age": 22,
+        "city": "Tiruchirappalli"
+    },
+    {
+        "id": 5,
+        "name": "Muthu Raman",
+        "age": 35,
+        "city": "Salem"
+    },
+    {
+        "id": 6,
+        "name": "Meena Kandasamy",
+        "age": 27,
+        "city": "Tirunelveli"
+    },
+    {
+        "id": 7,
+        "name": "Vijayalakshmi",
+        "age": 31,
+        "city": "Erode"
+    },
+    {
+        "id": 8,
+        "name": "Rajesh Kumar",
+        "age": 24,
+        "city": "Thanjavur"
+    },
+    {
+        "id": 9,
+        "name": "Anbu Selvan",
+        "age": 29,
+        "city": "Vellore"
+    },
+    {
+        "id": 10,
+        "name": "Kavitha Rani",
+        "age": 26,
+        "city": "Dindigul"
+    }
+]

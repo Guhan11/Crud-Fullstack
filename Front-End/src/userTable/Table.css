@@ -1,0 +1,225 @@
+/* Table.css */
+
+/* General Styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f7f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+h3 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #202124;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+/* Input and Button Styling */
+.input-search {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+input[type="search"] {
+  width: 70%;
+  padding: 12px;
+  border: 1px solid #dcdfe3;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+input[type="search"]:focus {
+  box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.2);
+  border-color: #1a73e8;
+  outline: none;
+}
+
+button {
+  padding: 12px 20px;
+  background: linear-gradient(135deg, #1a73e8, #0c5ac6);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  background: linear-gradient(135deg, #0c5ac6, #1a73e8);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Table Styling */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table thead {
+  background: linear-gradient(135deg, #e0e0e0, #f8f9fa);
+  color: #5f6368;
+}
+
+.table th, .table td {
+  padding: 16px 24px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 16px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.table th {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.table td {
+  color: #202124;
+  background-color: #ffffff;
+}
+
+.table tr:hover {
+  background-color: #f1f8ff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.table td:last-child, .table td:nth-last-child(2) {
+  text-align: center;
+}
+
+.table button {
+  padding: 8px 14px;
+  background: linear-gradient(135deg, #1a73e8, #0c5ac6);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.table button:hover {
+  background: linear-gradient(135deg, #0c5ac6, #1a73e8);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Modal Styling */
+.model {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.model-content {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  position: relative;
+  width: 80%;
+  max-width: 600px;
+}
+
+.model-content h2 {
+  margin-bottom: 20px;
+  color: #202124;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.model-content .input-group {
+  margin-bottom: 20px;
+}
+
+.model-content .input-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #5f6368;
+  font-weight: 600;
+}
+
+.model-content .input-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #dcdfe3;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  transition: box-shadow 0.3s ease;
+}
+
+.model-content .input-group input:focus {
+  box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.2);
+  border-color: #1a73e8;
+  outline: none;
+}
+
+.add-btn {
+  padding: 12px 20px;
+  background: linear-gradient(135deg, #1a73e8, #0c5ac6);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  margin-top: 20px;
+}
+
+.add-btn:hover {
+  background: linear-gradient(135deg, #0c5ac6, #1a73e8);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 30px;
+  cursor: pointer;
+  color: #888;
+  transition: color 0.3s ease;
+}
+
+.close:hover {
+  color: #202124;
+}
